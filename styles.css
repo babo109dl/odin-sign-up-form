@@ -1,4 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 * {
     padding: 0;
     margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: stretch;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+}
+
+.bar {
+    background-color: rgb(255,203,164);
+    height: 100vh;
+    width: 15vw;
+}
+
+.left-content {
+    height: 100vh;
+    width: 30vw;
+}
+
+.right-content {
+    height: 100vh;
+    width: 40vw;
 }
