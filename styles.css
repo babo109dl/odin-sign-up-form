@@ -4,6 +4,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -13,7 +14,7 @@ body {
 }
 
 .bar {
-    background-color: rgb(255,203,164);
+    background-color: rgb(255, 203, 164);
     height: 100vh;
     width: 15vw;
 }
@@ -26,4 +27,22 @@ body {
 .right-content {
     height: 100vh;
     width: 40vw;
+}
+
+.right-content-top {
+    background-color: rgb(253, 245, 230);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    height: 25vh;
+}
+
+.right-content-form {
+    height: 50vh;
+}
+
+.right-content-submit {
+    background-color: rgb(253, 245, 230);
+    height: 25vh;
 }
