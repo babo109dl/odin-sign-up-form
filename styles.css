@@ -13,6 +13,19 @@ body {
     font-family: 'Open Sans', 'Roboto', sans-serif;
 }
 
+button {
+    background-color: rgb(255,228,205);
+    padding: 0.75rem;
+    border: 2px solid rgb(253, 245, 230);
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+a {
+    color: rgb(255, 203, 164);
+    text-decoration: none;
+}
+
 .bar {
     background-color: rgb(255, 203, 164);
     height: 100vh;
@@ -43,6 +56,17 @@ body {
 }
 
 .right-content-submit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
     background-color: rgb(253, 245, 230);
     height: 25vh;
+}
+
+button:hover {
+    background-color: rgb(255, 203, 164);
+    color: white;
+    border: 2px solid rgb(255,228,205);
 }
